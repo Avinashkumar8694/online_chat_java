@@ -1,0 +1,19 @@
+.bodydiv1
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1000px;
+    background-color: lightblue;
+}
+
+
+
+.headerdesign
+{
+    background-color: lightcyan;
+}
+.Footerdesign
+{
+    background-color: lightgray;
+}

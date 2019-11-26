@@ -1,0 +1,43 @@
+/* 
+    Document   : newcolor
+    Created on : 21 Apr, 2016, 10:06:37 PM
+    Author     : HP User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background-color:magenta;
+}
+/* =============================================================
+   NAVBAR  STYLES
+ ============================================================ */
+.navbar-inverse {
+background-color:plum;
+border-color: mediumpurple;
+}
+
+/* =============================================================
+   ABOUT STYLES
+ ============================================================ */
+.developer-img {
+    border: 5px solid mediumblue;
+}
+
+
+
+.testimonial:after {
+    border-top-color: #5656AA;
+}
+
+.testimonial {
+    border: 1px solid #5656AA;
+}
+
+.testimonial-name {
+    color: #5656AA;
+}

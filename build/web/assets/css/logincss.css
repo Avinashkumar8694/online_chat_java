@@ -1,0 +1,134 @@
+.loginhead
+{
+    width: 100%;
+    height: 50px;
+    background-color: indigo;
+    position: relative;
+    display: none;
+}
+
+
+.menu {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.chathead
+{
+    width: 100%;
+    height: 50px;
+    background-color: indigo;
+    position: relative;
+    display: block;
+}
+
+
+
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    alignment-adjust: central;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (max-width: 700px) {
+    
+    body {
+        background-color: whitesmoke;
+    }
+
+    .loginhead
+    {
+        background-color: #398439;
+         width: 100%;
+         height: 50px;
+         display: block;
+   
+}
+
+.change .bar1:hover{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2:hover {opacity: 0;}
+
+.change .bar3:hover {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: indigo;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+}

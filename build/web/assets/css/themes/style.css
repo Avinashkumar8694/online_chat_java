@@ -1,0 +1,43 @@
+/* 
+    Document   : style
+    Created on : May 8, 2016, 2:04:03 PM
+    Author     : PARUL JAISWAL
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root 
+{
+    display : block;
+}
+body
+{
+    background-image:url("../../img/bc.jpg");
+    background-size: 100%;
+}
+ 
+.navbar-inverse {
+background-color: #3C3C96;
+border-color: #3C3C96;
+}
+
+/* =============================================================
+   ABOUT STYLES
+ ============================================================ */
+.developer-img {
+    border: 5px solid #5656AA;
+}
+
+
+
+.testimonial:after {
+    border-top-color: #5656AA;
+}
+
+.testimonial {
+    border: 1px solid #5656AA;
+}
+
+.testimonial-name {
+    color: #5656AA;
+}
+
